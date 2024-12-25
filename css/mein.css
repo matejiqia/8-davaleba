@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", serif; 
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(206, 206, 206);
+}
+.rov{
+    display: flex;
+    justify-content: space-between;;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+
+    
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: aqua;
+}
+button{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    
+}
+button:hover{
+    color: brown;
+}
+.bg-image{
+    background-image:url("../img/ca.jpg") ;
+    height: 600px;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    text-align: center;
+    padding: 20px;
+}
